@@ -1,0 +1,27 @@
+.rede_footer {
+    float: right;
+    padding: 10px; 
+}
+
+.redesociais {
+    width: 100%;
+    max-height: 600px;
+}
+
+.logo_atos {
+    width: 100%;
+    min-width: 50px;
+    max-width: 300px;
+    float: left;
+}
+
+section .texto_footer {
+    clear: both;
+    text-align: center;
+    padding: 2%;
+    border-bottom: 1px solid #DDD;
+}
+
+.icones_footer {
+    width: 30px;
+}

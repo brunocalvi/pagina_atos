@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.img_artigos{
+    background-image: url(../_img/artigos_blibricos.jpg);
+    background-size: cover;
+}
+
+.texto_baner{
+    text-align: center;
+    color: #fff;
+    padding: 80px 0;
+}
+
+#artigos-mensagens {
+    border: 1px solid #b3b3b3;
+    width:30%;
+    float: left;
+    margin: 1%;
+    min-width: 200px;  
+}
+
+.img_artigo {
+    width: 100%;
+}
+
+#artigo01 {
+    padding: 6%;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+#texto_artigo {
+    padding: 0% 6%;
+}
+
+#artigo04{
+    padding: 6%;
+    background-color: black;
+    color: #fff;
+}
+
+#artigo06 {
+    padding: 6%;
+    background-color: #271a0c;
+    color: #fff;
+}
+
+h3, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+P {
+    font-family: 'Catamaran', sans-serif;
+}

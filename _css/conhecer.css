@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.imagem_inicio {
+    background-image: url(../_img/pupito_esfumacado.jpg);
+    width: 100%;
+    background-position: center;
+}
+
+#titulo {
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    padding: 7%;
+}
+
+.frase_layout{
+    background-color: #e0e0d1;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.class="logo" {
+    float: left;
+    width: 100%;
+    margin: 3% 1% 1%
+}
+
+.img-logo{
+    max-width: 100%;
+    min-width: 100px;
+    margin: 3% 0%;
+}
+
+.img-pastores {
+    width: 40%;
+    min-width: 150px;
+    float: left;
+    clear: both;
+    margin: 0% 5% 2%;
+}
+
+.imagens-final {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+P {
+    font-family: 'Catamaran', sans-serif;
+}

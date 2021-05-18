@@ -1,0 +1,7 @@
+<!-- arquivo para desabilitar arquivos dentro do site para o google pesquisar-->
+
+user-agent:*
+Disallow: /admin/
+Disallow: /_css/
+Disallow: /bootstrap-5.0.0-beta2-dist/
+

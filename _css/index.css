@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover { 
+    text-decoration:none; 
+    color: inherit;
+}
+
+#contato {
+    list-style: none;
+    display: inline-block;
+    margin: 0% 2% 0;
+    min-width: 10px;
+}
+
+#pupito {
+    background-image: url(../_img/pupito_cinza.jpg);
+    background-size: cover;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-position: center;
+    
+}
+
+.aprincipal {
+    width: 30%;
+    margin: 5% 2% 2%;
+}
+
+.btn.btn-menu {
+    width: 20%;
+    color: black;
+    border: 1px solid white;
+    background-color: rgba(222, 222, 222, 0.8);
+    margin: 2% 2% 2% 2%;
+    position: relative;
+    min-width: 200px;
+    position:inherit;
+}
+
+.btn.btn-menu:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.redes_sociais {
+    width: 100%; 
+    float: left;
+      
+}
+
+.btn.btn-assista {
+    width: 20%;
+    border: 1px solid #008080;
+    color: #008080;
+    min-width: 200px;
+    margin: 2% 2% 2% 2%; 
+}
+
+.icones_sociais {
+    width: 30px;
+}
+
+#acesso_redes {
+    margin: 5% 1% 5% 1%;
+}
+
+.note_rede {
+    width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+    
+}
+
+#plano_leitura{
+    text-align: center;
+    background: #e0e0d1;
+    padding: 2% 0
+}
+
+.plano div {
+    display: inline-block;
+    padding: 4%; 
+}
+
+h2 {
+    margin: 2%;
+}
+
+.ladoalado{
+    width: 100%;
+    text-align: center;
+    justify-content: center;  
+}
+
+.news {
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    min-width: 200px;
+    margin: 2%;
+}
+
+.recados {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row nowrap;  
+}
+
+h4 {
+    text-align: center;
+    color: #ffffff;
+    padding: 1%;
+}
+
+.layout {
+    background-color: #00b3b3; 
+}
+
+.fundo_pessoas {
+    background-image: url(../_img/pessoas.jpg);
+    text-align: center;
+    color: #ffffff;
+    padding: 10% 2%;
+    background-size:cover;
+    background-position: center;
+}
+
+.container h3 {
+    line-height: 1.8;     
+}
+
+p, button {
+    font-family: 'Catamaran', sans-serif;
+}
+
+h2, h5, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+

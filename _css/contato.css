@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.baner_contato {
+    background-image: url(../_img/banner-contato.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.texto_baner {
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+
+#bloco1 {
+    background-color: beige;
+}
+
+#bloco2{
+    background-color: aquamarine;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Catamaran', sans-serif;
+}

@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.banner_oferta{
+    background-image: url(../_img/banner_oferta.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+#texto_banner {
+    text-align: center;
+    color: #fff;
+    padding: 5% 0;
+}
+
+#frase_dizimo{
+    padding: 2% 0% 1%;
+    line-height: 2.0;
+}
+
+#texto_titulo {
+    text-align: center;
+    padding: 2% 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bloco1 {
+    float: left;
+    border: 1px solid #e0e0d1;
+    text-align: center;
+    padding: 10px;
+    margin: 3%;
+    border-radius: 10px;
+    width: 25%;
+    min-width: 200px;
+    min-height: 300px; 
+}
+
+#bloco2 {
+    float: left;
+    border: 1px solid #e0e0d1;
+    text-align: center;
+    padding: 10px;
+    margin: 3%;
+    border-radius: 10px;
+    width: 25%;
+    min-width: 200px;
+    min-height: 300px;
+}
+
+#bloco3 {
+    float: left;
+    border: 1px solid #e0e0d1;
+    text-align: center;
+    padding: 10px;
+    margin: 3%;
+    border-radius: 10px;
+    width: 25%;
+    min-width: 200px;
+    min-height: 300px;
+}
+
+.texto_honra {
+    clear: both;
+    background-image: url(../_img/predios.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 4%;
+    text-align: center;
+    color: #fff;
+}
+
+.col-sm {
+    padding:  2% 6%;
+    line-height: 1.7;
+}
+
+h3, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+P, button {
+    font-family: 'Catamaran', sans-serif;
+}
