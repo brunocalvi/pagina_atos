@@ -17,17 +17,74 @@ body {
 }
 
 #bloco1 {
-    background-color: beige;
+    /*background-color: beige;*/ 
+    padding: 4%;
 }
 
 #bloco2{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
+    padding: 2% 4%;
+    text-align: center;
 }
 
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    width: 100%;
+    
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+}
+
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 60%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 10em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+
+button {
+   width: 150px;
+}
 h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-p {
+p, label {
     font-family: 'Catamaran', sans-serif;
 }
