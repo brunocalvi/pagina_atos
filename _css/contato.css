@@ -16,75 +16,135 @@ body {
     color: white;
 }
 
-#bloco1 {
-    /*background-color: beige;*/ 
-    padding: 4%;
-}
-
-#bloco2{
-    /*background-color: aquamarine;*/
-    padding: 2% 4%;
-    text-align: center;
-}
-
-form {
-    /* Apenas para centralizar o form na página */
-    margin: 0 auto;
-    /* Para ver as bordas do formulário */
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-    width: 100%;
-    
-}
 
 form div + div {
     margin-top: 1em;
 }
 
-label {
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
-    display: inline-block;
-    width: 15%;
-    text-align: right;
-}
-
-input, textarea {
-    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
-    font: 1em sans-serif;
-
-    /* Para dar o mesmo tamanho a todos os campo de texto */
-    width: 60%;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-    /* Para harmonizar o look & feel das bordas nos campos de texto*/
-    border: 1px solid #999;
-}
-
-input:focus, textarea:focus {
-    /* Dar um pouco de destaque nos elementos ativos */
-    border-color: #000;
-}
-
-textarea {
-    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
-    vertical-align: top;
-
-    /* Para dar espaço suficiente para digitar algum texto */
-    height: 10em;
-
-    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
-    resize: vertical;
-}
-
 button {
    width: 150px;
 }
+
 h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-p, label {
-    font-family: 'Catamaran', sans-serif;
+.contact-form p {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin: 0;
 }
+
+.contact-form-design-area {
+	margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.form-control {
+    display: block;
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    padding: 5px 0px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 0px;
+    box-shadow: none;
+	text-indent: 10px;
+    border: 1px solid rgba(51, 51, 51, .5);
+	border-radius: 10px;
+
+}
+
+.form-control:focus {
+    border-color: #497cbf;
+    outline: 0;
+    box-shadow: none;
+}
+
+.contact-form-design-area {
+	margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    background: #497cbf;
+    padding: 10px 25px;
+    border: 1px solid #497cbf;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 12px; 
+}
+
+.contact-form button:hover {
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #497cbf;
+    background-color: transparent;
+    font-weight: 1000;
+}
+
+.success {
+    background: #fff none repeat scroll 0 0;
+    color: #333;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-padding {
+    padding-top: 3%;
+    padding-bottom: 78px;
+}
+
+.section-title p {
+    margin-top: 4%;
+}
+
+.section-title h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+	text-align: center;
+    margin: 0;
+    font-weight: 700;
+    position: relative;
+}
+
+.section-title p {
+    font-weight: 450;
+}
+
+input {
+    border: 1px solid #e3e8f0;
+    box-shadow: none;
+    color: #333;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.form-group {
+    float: left;
+    margin-top: 0;
+    padding: 1%;
+}
+
+#editor_back {
+    background: transparent;
+    padding: 10px;
+    z-index: 5;
+    height: 200px;
+    width: 100%;
+}
+
+

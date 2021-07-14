@@ -11,10 +11,10 @@
         <meta name="ICBM" content="-10.333333, -53.2"/>
         <!--Tag geo tirada do site-->
         
-        <link href="../_bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../_css/contato.css" rel="stylesheet">
-        <link href="../_css/menu.css" rel="stylesheet">
-        <link href="../_css/footer.css" rel="stylesheet">
+        <link href="_bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="_css/contato.css" rel="stylesheet">
+        <link href="_css/menu.css" rel="stylesheet">
+        <link href="_css/footer.css" rel="stylesheet">
         
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
@@ -39,39 +39,53 @@
             
             <h3 class="texto_baner">Contate-nos</h3>
         </div>
+   
         
+        <section class="contact-area section-padding">
         <div class="container">
-            <div id="bloco1">
-                <h3>Formulário de Contato:</h3>
-
-                <p>Entre em contato conosco, será um prazer atendê-lo!</p>
-
-                <p>Caso queira saber sobre programações, dias e horários dos cultos, células, etc, nas igrejas clique abaixo</p> 
-
-                PROGRAMAÇÕES DAS IGREJAS E CÉLULAS
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h3>Formulário de Contato:</h3>
+                        <p>Entre em contato conosco, será um prazer atendê-lo!<br>
+                        Caso queira saber sobre programações, dias e horários dos cultos, células, e entre outras coisas na igreja clique abaixo:</p>
+                    </div>
+                </div>
             </div>
+              <div class="row contact-form-design-area wow fadeInUp">
 
-            <div id="bloco2">
-                <form action="#" method="post">
-                    <div>
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome"/>
+               <div class="col-md-12">
+                    <div class="contact-form">
+                        <div class="row">
+                            <form action="contato.php" method="post">
+                                <div class="form-group col-md-6">
+                                    <p>Nome:</p>
+                                    <input type="text" name="nome" class="form-control" id="first-name" required="required">
+                                </div>  
+                                <div class="form-group col-md-6">
+                                    <p>Telefone:</p>
+                                    <input type="number" name="telefone" class="form-control" id="subject" required="required">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <p>E-mail:</p>
+                                    <input type="email" name="email" class="form-control" id="email" required="required">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <p>Mensagem:</p>
+                                    <textarea id="editor_back" cols="6" name="mensagem" class="form-control" id="description" required="required"></textarea>
+                                </div>                
+                                
+                                <div class="col-md-12 text-center">
+                                      <button>Enviar</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <div>
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email"/>
-                    </div>
-                    <div>
-                        <label for="msg">Mensagem:</label>
-                        <textarea id="msg"></textarea>
-                    </div>
-                    <div class="button">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </div>
-                </form>
-            </div>
+                </div>
+                </div>
         </div>
-        
+    </section>
+   
         <footer>
             <div class="container">
                 <section>
